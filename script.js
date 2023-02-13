@@ -1,6 +1,6 @@
 function init() {
-    //let question= confirm("Do you want my version?");
-    swal("Do you want my version?", {buttons: ["yes", "no"]})
+    //let question= confirm("Click yes for a cleaner look...");
+    swal("Use the DOM to clean up the look?", {buttons: ["yes", "no"]})
       .then((value) => {
         // console.log(value);
         if (value===null){
