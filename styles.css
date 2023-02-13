@@ -1,1 +1,71 @@
-/* Write your CSS here! */
+body {
+background-color:aliceblue;
+font-family: 'Helvetica Neue', 'Arial', sans-serif;
+max-width:900px;
+text-align:left;
+/* margin:auto; */
+margin:8px;
+display:block;
+}
+
+main{
+    background-color: white;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-color: rgb(219, 243, 243);
+    border-width: 10px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-top-style:solid;
+    border-top-width:1px;
+    padding-bottom:20px;
+}
+header{
+    text-align:center;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:0px;
+}
+header p{
+
+    margin-top:-20px; 
+    /* text-align:left; */
+    /* border-bottom-style:inset; */
+
+}
+#center-text{
+    text-align:center; 
+    font-size: 16px;
+}
+#borderBox{
+    margin:auto;
+    padding-top:-50px;
+    height: 10px;
+    width:500px;
+    border-bottom-style:inset;
+}
+h1{
+    padding-top:40px;
+}
+h2{
+    padding-top:25px;
+    margin-left:150px;
+    text-align:left;
+}
+p{
+    line-height:25px;
+    margin-left:150px;
+    margin-right:150px;
+    margin-bottom:35px;
+    text-align:left;
+    font-size: 16px;
+}
+section{
+    text-align:center;
+}
+.funParagraph{
+    color:green;
+}
+#mainHeading{
+    color:red;
+}

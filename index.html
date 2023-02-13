@@ -2,13 +2,17 @@
 <html>
    <head>
       <title>Commercial Salmon Trolling in Sitka, Alaska</title>
+      <link rel="stylesheet" href = "./styles.css">
+      <link rel="stylesheet" href = "./normalize.css">
+      <script src = "script.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
    </head>
    <body>
    <main>
    <header>
-      <h1>A short story about commercial salmon fishing in Sitka, Alaska.</h1>
-      <p>by P. Jackson</p>
-
+      <h1 id="mainHeading">A short story about commercial salmon fishing in Sitka, Alaska.</h1>
+      <p id="center-text">by P. Jackson</p>
+      <div id="borderBox"></div>
    </header>
    <article>
    <section>
@@ -29,9 +33,10 @@
          <figcaption>Heading out on our first trip.</figcaption>
       </figure>
    </section>  
+   <div id="borderBox"></div>
    <section>
       <h2>They don't seem to want to leave the water...</h2>
-      <p>
+      <p id="testP" >
          The learning curve was steep. Captain Gregg was a soft spoken man with 30 years of experience. 
          He could effortlessly pull salmon from the water and conk them in the perfect spot. 
          Me, not so much. 
@@ -46,6 +51,7 @@
             <figcaption>The Captain's daughter was a natural.</figcaption>
          </figure>
    </section>  
+   <div id="borderBox"></div>
    <section>
       <h2>Time to make the Captain proud.</h2>
       <p>
@@ -58,6 +64,7 @@
          <figcaption>Finally doing it!</figcaption>
       </figure>
    </section>  
+   <div id="borderBox"></div>
    <section>
       <h2>Is it cold in here or is it just me?</h2>
       <p>
@@ -75,9 +82,10 @@
          <figcaption>Glazing fish in a -30* freezer.</figcaption>
       </figure>
    </section>  
+   <div id="borderBox"></div>
    <section>
       <h2>Gregg loves fish and we love Gregg.</h2>
-         <p>
+         <p class="funParagraph">
             I am so thankful for my Alaskan fishing experience. Luckily, I didn't really get sea sick. 
             I learned a completely foreign skill set and I learned a lot about myself in the process. 
             We were able to fill the boat twice and Gregg seemed pretty pleased with our haul. 
@@ -91,7 +99,7 @@
    </article>
    </main>
    <footer>      
-      <p>...a story for Launchcode, &nbsp;2023</p>
+      <p id="center-text">...a story for Launchcode, &nbsp;2023</p>
    </footer>
    </body>
 </html>
